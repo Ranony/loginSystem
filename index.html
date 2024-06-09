@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media_query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="container">
+        <div id="loginPage" class="loginPage  m-auto mt-5 text-center py-5 px-4 xl-75 lg-75 md-100 sm-100 xs-100">
+            <h1 class="text-info">Smart Login System</h1>
+            <form id="loginForm text-white">
+                <input type="email" name="email" id="loginEmail" class="form-control mt-2"
+                    placeholder="Enter your email">
+                <input type="password" name="password" id="loginPassword" class="form-control mt-3"
+                    placeholder="Enter your password">
+                <div id="message" class="message d-none mt-2"></div>
+                <button id="loginButton" class="form-control mt-4 mb-3 btn btn-outline-info">Login</button>
+            </form>
+            <div class="sign-up text-white">
+                <p class="d-inline">Don't have an account?</p>
+                <button id="signUpNavigate" class="btn border border-0 text-white pt-0 ps-0">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

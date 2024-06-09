@@ -1,0 +1,57 @@
+body {
+    background-color: #24353F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    height: 100vh;
+}
+
+.welcome {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+#loginPage,
+#registerPage {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+#logoutButton {
+    color: #ffffff81 !important;
+}
+
+
+#signUpNavigate:hover,
+#signInNavigate:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+
+}
+
+#loginButton:hover,
+#signUpButton:hover,
+#logoutButton:hover {
+    color: #fff !important;
+}
+
+
+/* Nav Bar Icon from xxs to md */
+.navbar-dark {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+    .navbar-toggler {
+        color: rgba(255, 255, 255, .5);
+        border-color: rgba(255, 255, 255, .1);
+    }
+}
